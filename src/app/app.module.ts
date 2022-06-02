@@ -140,9 +140,12 @@ import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { AccessComponent } from './components/access/access.component';
+import { LibreriaModule } from 'libreria';
+
 
 @NgModule({
     imports: [
+        LibreriaModule,
         BrowserModule,
         FormsModule,
         AppRoutingModule,
